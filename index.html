@@ -1,143 +1,139 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 	<head>
 		<title>Yanna Crafts (bootstrap version)</title>
-		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
-		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Metamorphous|Roboto|Indie-Flower|Charmonman|Cookie|Courgette|Dancing+Script|Kaushan+Script|Lobster|Lobster+Two|Marck+Script|Pacifico|Pattaya|Sacramento|Satisfy|Spicy+Rice|Srisakdi|Tangerine" rel="stylesheet">
-		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
-		<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-		<link rel = "stylesheet" type = "text/css" href = "styles/index.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+	
+		<style>
+		@media (min-width: 768px) {
+		  .navbar-brand-center {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+			z-index: 1000;
+		  }
+		}
+		</style>
 	</head>
 	<body>
 		
-		<nav class = "navbar navbar-expand-md bg-secondary navbar-dark">
-			<div class = "navbar-collapse collapse mw-100 order-1 order-md-0 dual-collapse2">
-				<ul class = "navbar-nav mr-auto">
-					<li class = "nav-item">
-						<a class = "active nav-link" href = "index.html">Home</a>
+		<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+			<div class="navbar-collapse collapse mw-100 order-1 order-md-0 dual-collapse2">
+		  		<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="active nav-link" href="index.html">Home</a>
 					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "register.html">Register</a>
+					<li class="nav-item">
+				  		<a class="nav-link" href="register.html">Register</a>
 					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "login.html">Log In</a>
+					<li class="nav-item">
+				  		<a class="nav-link" href="login.html">Log In</a>
 					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "contact.html">Contact Us</a>
+					<li class="nav-item">
+				  		<a class="nav-link" href="contact.html">Contact Us</a>
 					</li>
-				</ul>
+			  	</ul>
 			</div>
 		
-			<div class = "mx-auto order-0">
-				<a class = "navbar-brand mx-auto" href = "index.html"><h1>Yanna Crafts</h1></a>
-				<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = ".dual-collapse2">
-					<span class = "navbar-toggler-icon"></span>
+		    <div class="navbar-brand-center order-0">
+				<a class="navbar-brand mx-auto" href="index.html"><h1>Yanna Crafts</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-			</div>
-
-			<div class = "navbar-collapse collapse mw-100 order-3 dual-collapse2">
-				<ul class = "navbar-nav ml-auto">
-					<li class = "nav-item">
-						<a class = "nav-link" href = "about.html">About</a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "eats.html">Food</a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "diy.html">DIY</a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "looks.html">Beauty</a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "shop.html">Shop</a>
-					</li>
-				</ul>
+		    </div>
+		
+		    <div class="navbar-collapse collapse mw-100 order-3 dual-collapse2">
+		    	<ul class="navbar-nav ml-auto">
+		        	<li class="nav-item">
+		          		<a class="nav-link" href="eats.html">Food</a>
+		        	</li>
+		        	<li class="nav-item">
+		          		<a class="nav-link" href="diy.html">DIY</a>
+		        	</li>
+		        	<li class="nav-item">
+		        		<a class="nav-link" href="looks.html">Beauty</a>
+		        	</li>
+		        	<li class="nav-item">
+		          		<a class="nav-link" href="shop.html">Shop</a>
+		        	</li>
+		      	</ul>
 			</div>
 		</nav>
-		
+	
 		<div class="container" style="padding-top: 150px;">
-		  <div class="row">
-		    <div class="col-sm-3 mb-4">
-		      <div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
-		        <a href="eats.html" class="text-decoration-none">
-		          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80" alt="vibrant food preparation flatlay" class="img-fluid rounded">
-		          <div class="caption mt-3">
-		            <h6 class="font-weight-bold text-dark">Easy Eats</h6>
-		            <p class="text-muted small mb-0">
-						Dorm room delicacies, budget-friendly meal prep, and kitchen
-						hacks to help you feed yourself without breaking the bank.
-					</p>
-		          </div>
-		        </a>
-		      </div>
-		    </div>
-		
-		    <div class="col-sm-3 mb-4">
-		      <div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
-		        <a href="diy.html" class="text-decoration-none">
-		          <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=500&q=80" alt="bright colorful craft supplies" class="img-fluid rounded">
-		          <div class="caption mt-3">
-		            <h6 class="font-weight-bold text-dark">Space DIY</h6>
-		            <p class="text-muted small mb-0">
-						Upcycling thrift finds, organizing small apartments, and simple
-						weekend projects to make your space feel like home.
-					</p>
-		          </div>
-		        </a>
-		      </div>
-		    </div>
-		
-		    <div class="col-sm-3 mb-4">
-		      <div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
-		        <a href="looks.html" class="text-decoration-none">
-		          <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=500&q=80" alt="clean skincare cosmetic bottles" class="img-fluid rounded">
-		          <div class="caption mt-3">
-		            <h6 class="font-weight-bold text-dark">Self-Care & Style</h6>
-		            <p class="text-muted small mb-0">
-						Skincare routines for stressful weeks, clean beauty tips, and
-						getting ready on a tight schedule.
-					</p>
-		          </div>
-		        </a>
-		      </div>
-		    </div>
-		
-		    <div class="col-sm-3 mb-4">
-		      <div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
-		        <a href="shop.html" class="text-decoration-none">
-		          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=500&q=80" alt="person secure digital checkout payment" class="img-fluid rounded">
-		          <div class="caption mt-3">
-		            <h6 class="font-weight-bold text-dark">Smart Shopping</h6>
-		            <p class="text-muted small mb-0">
-						Pro budgeting tips, smart grocery lists, and how to shop like
-						an actual adult without the stress.
-					</p>
-		          </div>
-		        </a>
-		      </div>
-		    </div>
-		  </div>
+			<div class="row">
+				<div class="col-sm-3 mb-4">
+					<div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
+						<a href="eats.html" class="text-decoration-none">
+							<img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80" alt="vibrant food preparation flatlay" class="img-fluid rounded">
+							<div class="caption mt-3">
+								<h6 class="font-weight-bold text-dark">Easy Eats</h6>
+								<p class="text-muted small mb-0">Dorm room delicacies, budget-friendly meal prep, and kitchen hacks to help you feed yourself without breaking the bank.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+	
+				<div class="col-sm-3 mb-4">
+					<div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
+						<a href="diy.html" class="text-decoration-none">
+							<img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=500&q=80" alt="bright colorful craft supplies" class="img-fluid rounded">
+							<div class="caption mt-3">
+								<h6 class="font-weight-bold text-dark">Space DIY</h6>
+								<p class="text-muted small mb-0">Upcycling thrift finds, organizing small apartments, and simple weekend projects to make your space feel like home.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+	
+				<div class="col-sm-3 mb-4">
+					<div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
+						<a href="looks.html" class="text-decoration-none">
+							<img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=500&q=80" alt="clean skincare cosmetic bottles" class="img-fluid rounded">
+							<div class="caption mt-3">
+								<h6 class="font-weight-bold text-dark">Self-Care & Style</h6>
+								<p class="text-muted small mb-0">Skincare routines for stressful weeks, clean beauty tips, and getting ready on a tight schedule.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+	
+				<div class="col-sm-3 mb-4">
+					<div class="thumbnail border-0 shadow-sm rounded p-2 bg-light">
+						<a href="shop.html" class="text-decoration-none">
+							<img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=500&q=80" alt="person secure digital checkout payment" class="img-fluid rounded">
+							<div class="caption mt-3">
+								<h6 class="font-weight-bold text-dark">Smart Shopping</h6>
+								<p class="text-muted small mb-0">Pro budgeting tips, smart grocery lists, and how to shop like an actual adult without the stress.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
-		
-		<div class = "container caption p-5">
-			<div class = "container caption p-5">
-				<p class="lead text-center">
-					Welcome to a space built by young adults, for young adults. Navigating
-					from being a teen to independence isn't a solo mission. We're sharing 
-					real, raw advice on cooking, creating, and living on your own terms—no
-					boring adult lectures included.
+	
+		<div class="container caption p-5" style="padding-bottom: 120px !important;">
+			<div class="text-center mx-auto" style="max-width: 800px;">
+				<h3 class="font-weight-bold text-dark mb-3">Real Skills. Zero Lectures.</h3>
+				<p class="lead text-muted mb-0">
+					We aren't lifestyle influencers. We're a collective of young adults sharing the practical hacks, recipes, and budgets we're using to navigate independence in real time.
 				</p>
 			</div>
 		</div>
-		
-		<div class = "text-center pt-3 bg-secondary text-light fixed-bottom">
+	
+		<div class="text-center pt-3 bg-secondary text-light fixed-bottom">
 			<p>&copy copyright YannaCrafts.com</p>
 		</div>
-		
-		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	</body>
 </html>
